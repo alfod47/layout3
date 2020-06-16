@@ -94,6 +94,13 @@ main .box ul > .li7 > button {
     font-size: 18px;
 }
 
+main .box ul > .li7 > button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}
+
+
 main .box ul > .li6 > h2 {
     font-size: 30px;
     font-weight: 500;
@@ -103,4 +110,10 @@ main .box ul > .li6 > h2 {
 main .box ul li > span {
     color: rgb(177, 175, 175);
 }
+
+main .box ul > .li7 > button {
+    /* border 외부라인 */
+    outline: none;
+}
+
 
